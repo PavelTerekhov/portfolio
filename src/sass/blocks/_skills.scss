@@ -20,19 +20,23 @@
         grid-auto-rows: minmax(270px, auto);
         gap: 13px;
     }
+    &__icons {
+        display: flex;
+        align-items: center;
+        min-height: 65px;
+    }
     &__item {
         border: 1px solid #000000;
-        padding: 30px;
+        padding: 30px 30px 25px 30px;
     }
     &__name {
         margin: 20px 0 15px 0;
     }
     &__text {
+        margin-bottom: 0;
         font-weight: 500;
         font-size: 12px;
         line-height: 18px;
         color: #000000;
     } 
-
-
 }
